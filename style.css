@@ -1,1 +1,13 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #fff0f5;
+}
 
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  background: pink;
+  padding: 15px;
+}
