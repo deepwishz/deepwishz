@@ -42,9 +42,9 @@ body {
 
 .subtitle {
   color: #666;
-  font-size: 27px;
+  font-size: 30px;
   font-family: "Arial Rounded MT Bold", "Nunito", sans-serif;
   line-height: 1.6;
-  max-width: 500px;
+  max-width: 600px;
   margin: 10px auto 0;
 }
