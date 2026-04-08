@@ -41,10 +41,12 @@ body {
 }
 
 .subtitle {
-  color: #666;
-  font-size: 20px;
-  font-family: "Arial Rounded MT Bold", "Trebuchet MS" , Arial, sans-serif;
-  line-height: 1.5;
-  max-width: 550px;
-  margin: 10px auto 0;
+  color: #666 !important;
+  font-size: 20px !important;
+  font-family: "Arial Rounded MT Bold", "Trebuchet MS", Arial, sans-serif !important;
+  line-height: 1.5 !important;
+  max-width: 550px !important;
+  margin: 10px auto 0 !important;
+  text-align: center !important;
+  letter-spacing: 0.3px !important;
 }
