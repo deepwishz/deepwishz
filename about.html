@@ -1,41 +1,86 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
-  <title>About - DeepWishZzz</title>
-  <link rel="stylesheet" href="style.css">
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Portfolio</title>
+    <link rel="stylesheet" href="style.css"> 
+    <style>
+        /* CSS Tambahan khusus untuk Embed Canva agar rapi */
+        .canva-wrapper {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
 
+        .canva-container {
+            position: relative;
+            width: 100%;
+            height: 0;
+            padding-top: 56.25%; /* Ratio 16:9 */
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            border-radius: 12px;
+            overflow: hidden;
+        }
+
+        .canva-container iframe {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            border: none;
+        }
+
+        .canva-caption {
+            display: block;
+            margin-top: 15px;
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #666;
+            text-decoration: none;
+        }
+
+        .canva-caption:hover {
+            color: #00d2d3;
+        }
+    </style>
+</head>
 <body>
 
-  <div class="navbar">
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-  </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
 
-  <div class="content">
-    <h1>About This Website</h1>
+    <main>
+        <section class="intro">
+            <h1>Tentang Saya</h1>
+            <p>Halo! Ini adalah proyek presentasi yang dikerjakan oleh Kelompok 2.</p>
+        </section>
 
-    <p class="subtitle">
-      This website was created to celebrate special moments in a simple and aesthetic way ✨
-      <br>
-      A little space to share wishes, love, and birthday vibes 🎂
-    </p>
+        <hr>
 
-    <!-- EMBED CANVA -->
-    <div class="canva">
-      <div style="position: relative; width: 100%; height: 0; padding-top: 56.25%;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.16); margin-top: 20px; overflow: hidden; border-radius: 8px;">
+        <div class="canva-wrapper">
+            <div class="canva-container">
+                <iframe 
+                    loading="lazy" 
+                    src="https://www.canva.com/design/DAHGIytBZY4/6abM1epFz1Iuuhyb-8oDsw/view?embed" 
+                    allowfullscreen="allowfullscreen" 
+                    allow="fullscreen">
+                </iframe>
+            </div>
+            <a class="canva-caption" href="https://www.canva.com/design/DAHGIytBZY4/6abM1epFz1Iuuhyb-8oDsw/view" target="_blank" rel="noopener">
+                🎨 Lihat Presentasi Fullscreen: <strong>Kelompok 2</strong> by Zepha Bintang
+            </a>
+        </div>
+    </main>
 
-        <iframe
-          src="https://www.canva.com/design/DAHGIytBZY4/6abM1epFz1Iuuhyb-8oDsw/view?embed"
-          style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none;"
-          allowfullscreen>
-        </iframe>
-
-      </div>
-    </div>
-
-  </div>
+    <footer>
+        <p>&copy; 2024 Portofolio Kamu</p>
+    </footer>
 
 </body>
 </html>
