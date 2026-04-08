@@ -4,17 +4,19 @@ body {
   background: #fff0f5;
 }
 
+/* NAVBAR MATCHA */
 .navbar {
   display: flex;
   justify-content: center;
   gap: 40px;
-  background: #8fbf8f; 
+  background: #8fbf8f; /* matcha */
   padding: 15px;
   position: fixed;
   top: 0;
   width: 100%;
 }
 
+/* MENU */
 .navbar a {
   text-decoration: none;
   color: white;
@@ -25,26 +27,24 @@ body {
   transition: 0.3s;
 }
 
+/* HOVER */
 .navbar a:hover {
   background: white;
   color: #8fbf8f;
 }
 
+/* CONTENT */
 .content {
   margin-top: 100px;
   text-align: center;
 }
 
+/* JUDUL */
 .title {
   font-size: 40px;
   color: #6da06d;
 }
 
 .subtitle {
-  color: #666;
-  font-size: 18px;
-  font-family: "Arial Rounded MT Bold", "Nunito", sans-serif;
-  line-height: 1.6;
-  max-width: 500px;
-  margin: 10px auto 0;
+  color: #888;
 }
