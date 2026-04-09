@@ -4,6 +4,14 @@ body {
   text-align: center;
 }
 
+hr {
+  width: 60%;
+  margin: 20px auto;
+  border: none;
+  height: 2px;
+  background-color: lightblue;
+}
+
 .navbar {
   list-style: none;
   background-color: white;
@@ -47,4 +55,9 @@ body {
 
 .contact p {
   margin: 5px 0;
+}
+
+.contact ul {
+  list-style: none;
+  padding: 0;
 }
