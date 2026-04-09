@@ -4,19 +4,17 @@ body {
   background: #fff0f5;
 }
 
-/* NAVBAR MATCHA */
 .navbar {
   display: flex;
   justify-content: center;
   gap: 40px;
-  background: #8fbf8f; /* matcha */
+  background: #8fbf8f; 
   padding: 15px;
   position: fixed;
   top: 0;
   width: 100%;
 }
 
-/* MENU */
 .navbar a {
   text-decoration: none;
   color: white;
@@ -27,13 +25,11 @@ body {
   transition: 0.3s;
 }
 
-/* HOVER */
 .navbar a:hover {
   background: white;
   color: #8fbf8f;
 }
 
-/* CONTENT */
 .content {
   margin-top: 100px;
   text-align: center;
