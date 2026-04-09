@@ -1,6 +1,6 @@
 body {
   font-family: Arial;
-  background-color: #fff9e6;
+  background-color: #FFFFC2; 
   text-align: center;
 }
 
@@ -44,7 +44,12 @@ body {
   background-color: #e6f7ff;
   border-radius: 15px;
   color: #333;
-  font-family: "Courier New", monospace; 
+  font-family: "Courier New", monospace;
+  text-align: right; 
+}
+
+.contact p:first-child {
+  text-align: center;
 }
 
 .contact ul {
