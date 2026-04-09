@@ -63,3 +63,14 @@ body {
   width: 100%;
   max-width: 150px;
 }
+
+.logo-text {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #555;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.5;
+}
