@@ -50,7 +50,11 @@ body {
   display: inline;
 }
 
+.logo {
+  text-align: center;
+  margin-top: 80px;
+}
+
 .logo img {
-  width: 60%;
-  max-width: 300px;
+  width: 300px; 
 }
