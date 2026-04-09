@@ -4,10 +4,9 @@ body {
   text-align: center;
 }
 
-/* NAVBAR */
 .navbar {
   list-style: none;
-  background-color: #b3e5fc; /* LIGHT BLUE SOFT */
+  background-color: #b3e5fc; 
   padding: 12px;
 }
 
@@ -18,30 +17,26 @@ body {
 
 .navbar a {
   text-decoration: none;
-  color: white; /* PUTIH */
+  color: white; 
   font-weight: bold;
 }
 
-/* JUDUL */
 .judul {
   font-family: Georgia, serif;
-  color: #2171B5; /* BIRU */
+  color: #2171B5; 
   font-size: 36px;
 }
 
-/* SUBTITLE */
 .subtitle {
   color: #2171B5;
 }
 
-/* CANVA */
 .canva iframe {
   width: 80%;
   height: 400px;
   border: none;
 }
 
-/* CONTACT */
 .contact {
   margin: 20px auto;
   padding: 15px;
@@ -49,7 +44,7 @@ body {
   background-color: #e6f7ff;
   border-radius: 15px;
   color: #333;
-  font-family: "Courier New", monospace; /* BIAR GA BASIC */
+  font-family: "Courier New", monospace; 
 }
 
 .contact ul {
