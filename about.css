@@ -4,18 +4,11 @@ body {
   text-align: center;
 }
 
-hr {
-  width: 60%;
-  margin: 20px auto;
-  border: none;
-  height: 2px;
-  background-color: lightblue;
-}
-
+/* NAVBAR */
 .navbar {
   list-style: none;
-  background-color: white;
-  padding: 10px;
+  background-color: #b3e5fc; /* LIGHT BLUE SOFT */
+  padding: 12px;
 }
 
 .navbar li {
@@ -25,39 +18,45 @@ hr {
 
 .navbar a {
   text-decoration: none;
-  color: black;
+  color: white; /* PUTIH */
   font-weight: bold;
 }
 
+/* JUDUL */
 .judul {
   font-family: Georgia, serif;
-  color: darkblue;
+  color: #2171B5; /* BIRU */
   font-size: 36px;
 }
 
+/* SUBTITLE */
 .subtitle {
-  color: darkblue;
+  color: #2171B5;
 }
+
+/* CANVA */
 .canva iframe {
   width: 80%;
   height: 400px;
   border: none;
 }
 
+/* CONTACT */
 .contact {
   margin: 20px auto;
   padding: 15px;
-  width: 250px;
+  width: 260px;
   background-color: #e6f7ff;
   border-radius: 15px;
   color: #333;
-}
-
-.contact p {
-  margin: 5px 0;
+  font-family: "Courier New", monospace; /* BIAR GA BASIC */
 }
 
 .contact ul {
   list-style: none;
   padding: 0;
+}
+
+.contact li {
+  margin: 5px 0;
 }
