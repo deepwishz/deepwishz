@@ -50,11 +50,16 @@ body {
   display: inline;
 }
 
-.logo {
+.logo-box {
+  width: 220px;
+  margin: 40px auto;
+  padding: 15px;
+  background-color: #e6f7ff;
+  border-radius: 15px;
   text-align: center;
-  margin-top: 80px;
 }
 
-.logo img {
-  width: 300px; 
+.logo-box img {
+  width: 100%;
+  max-width: 150px;
 }
