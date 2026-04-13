@@ -76,14 +76,27 @@ body {
 }
 
 .filo {
-  width: 70%;
-  margin: auto;
-  text-align: justify;
-  color: #555;
-}
-
-.filo {
   text-align: center;
   color: #2171B5;
   margin-top: 30px;
+  font-family: Georgia, serif;
+}
+
+.filo-box {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+
+.filo-box ul {
+  padding-left: 20px;
+}
+
+.filo-box li {
+  margin-bottom: 12px;
+  font-size: 14px;
+  color: #888;
+  line-height: 1.5;
 }
