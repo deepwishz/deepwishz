@@ -74,3 +74,16 @@ body {
   margin-right: auto;
   line-height: 1.5;
 }
+
+.filo {
+  width: 70%;
+  margin: auto;
+  text-align: justify;
+  color: #555;
+}
+
+.filo {
+  text-align: center;
+  color: #2171B5;
+  margin-top: 30px;
+}
