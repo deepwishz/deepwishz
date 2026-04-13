@@ -82,7 +82,7 @@ body {
   font-family: Georgia, serif;
 }
 
-.filo-box {
+.fl {
   width: 80%;
   margin: 20px auto;
   padding: 20px;
@@ -90,11 +90,11 @@ body {
   border-radius: 15px;
 }
 
-.filo-box ul {
+.fl ul {
   padding-left: 20px;
 }
 
-.filo-box li {
+.fl li {
   margin-bottom: 12px;
   font-size: 14px;
   color: #888;
