@@ -111,3 +111,49 @@ html {
 .text-content{
     max-width: 600px;
 }
+
+@media (max-width: 768px){
+
+    .header{
+        padding: 15px 5%;
+    }
+
+    .navbar a{
+        margin-left: 15px;
+        font-size: 14px;
+    }
+
+    .home{
+        padding: 120px 8% 50px;
+        height: auto;
+    }
+
+    .content{
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .text-content{
+        max-width: 100%;
+    }
+
+    .content h1{
+        font-size: 55px;
+    }
+
+    .content h3{
+        font-size: 26px;
+    }
+
+    .content p{
+        font-size: 18px;
+        line-height: 1.8;
+    }
+
+    .profile-img{
+        width: 180px;
+        height: 180px;
+    }
+
+}
