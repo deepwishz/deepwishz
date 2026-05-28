@@ -156,4 +156,73 @@ html {
         height: 180px;
     }
 
+.menu-toggle{
+    display: none;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
 }
+
+@media (max-width: 768px){
+
+    .header{
+        padding: 15px 5%;
+    }
+
+    .menu-toggle{
+        display: block;
+    }
+
+    .navbar{
+        position: absolute;
+        top: 70px;
+        right: 5%;
+        background: rgba(0, 0, 50, 0.95);
+        backdrop-filter: blur(10px);
+        border-radius: 15px;
+        padding: 20px;
+        display: none;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .navbar.active{
+        display: flex;
+    }
+
+    .navbar a{
+        margin-left: 0;
+        font-size: 16px;
+    }
+
+    .home{
+        padding: 120px 8% 50px;
+        height: auto;
+    }
+
+    .content{
+        flex-direction: column-reverse;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .profile-img{
+        width: 180px;
+        height: 180px;
+    }
+
+    .content h1{
+        font-size: 50px;
+    }
+
+    .content h3{
+        font-size: 24px;
+    }
+
+    .content p{
+        font-size: 17px;
+        line-height: 1.8;
+    }
+}
+
+
