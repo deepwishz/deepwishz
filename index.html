@@ -9,6 +9,9 @@
 <body>
     <header class="header">
         <a href="#home" class="mylogo">Deep<span>Wishz</span></a>
+        <div class="menu-toggle" id="menu-toggle">
+    ☰
+</div>
         <nav class="navbar">
     <a href="index.html">HOME</a>
     <a href="about.html">ABOUT US</a>
@@ -29,5 +32,15 @@
         <img src="logo.png" alt="DeepWishz Logo" class="profile-img">
         </div>
     </section>
+    <script>
+
+const menuToggle = document.getElementById("menu-toggle");
+const navbar = document.querySelector(".navbar");
+
+menuToggle.onclick = () => {
+    navbar.classList.toggle("active");
+}
+
+</script>
 </body>
 </html>
