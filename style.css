@@ -243,20 +243,25 @@ html {
 }
 
 .contact-btn {
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-  border: 1.5px solid #333;
-  background: transparent;
-  cursor: pointer;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 1.5px solid #4d7cff;
+    background: transparent;
+    cursor: pointer;
 
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
-  color: #333;
-  transition: 0.3s;
+    color: white;
+
+    transition: 0.3s;
+
+    box-shadow:
+    0 0 10px rgba(77,124,255,0.5),
+    0 0 20px rgba(77,124,255,0.3);
 }
 
 .contact-btn i {
@@ -288,12 +293,43 @@ html {
 }
 
 .contact-btn:hover {
-  background: #f5f5f5;
-  transform: translateY(-3px);
+    transform: translateY(-5px);
+
+    box-shadow:
+    0 0 15px #b03a7e,
+    0 0 30px rgba(176,58,126,0.8);
 }
 
 .contact-menu.active{
     display: flex;
+}
+
+.contact {
+    background-color: rgb(0, 0, 50) !important;
+    padding: 40px 10% 80px;
+    text-align: center;
+}
+
+.contact h2 {
+    color: white;
+    font-size: 50px;
+    margin-bottom: 40px;
+
+    animation: glow 2s infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        text-shadow:
+        0 0 10px #4d7cff,
+        0 0 20px #4d7cff;
+    }
+    to {
+        text-shadow:
+        0 0 20px #b03a7e,
+        0 0 40px #4d7cff,
+        0 0 60px rgba(176,58,126,0.6);
+    }
 }
 
 @media (max-width: 768px){
@@ -430,7 +466,16 @@ html {
     .contact-wrapper {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 25px;
     align-items: center;
     }
+
+    .contact-menu {
+    top: 90px;
+}
+
+    .contact-btn {
+    width: 65px;
+    height: 65px;
+}
 }
