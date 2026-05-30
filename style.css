@@ -474,8 +474,8 @@ html {
     
     .contact-wrapper {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+    flex-items: center;
+    align-content: flex-start;
     gap: 20px;
 
     overflow-x: auto;
