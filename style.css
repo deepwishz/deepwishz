@@ -100,7 +100,7 @@ html {
     height: 220px;
     border-radius: 50%;
     object-fit: cover;
-    border: 4px solid #c75b9b;
+    border: 4px solid #a12c68;
 
     box-shadow:
     0 0 20px #ff9ad5,
@@ -152,7 +152,7 @@ html {
 }
 
 .about-box{
-    border: 3px solid #ff9ad5;
+    border: 3px solid #a12c68;
     border-radius: 25px;
     padding: 40px;
     background: rgb(0, 0, 35);
@@ -224,8 +224,8 @@ html {
     transform: translateY(-10px);
 
     box-shadow:
-    0 0 20px #ff9ad5,
-    0 0 40px rgba(77,124,255,0.8);
+    0 0 20px #b03a7e,
+    0 0 40px rgba(176,58,126,0.8);
 }
 
 @media (max-width: 768px){
