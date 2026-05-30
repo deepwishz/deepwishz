@@ -292,6 +292,10 @@ html {
   transform: translateY(-3px);
 }
 
+.contact-menu.active{
+    display: flex;
+}
+
 @media (max-width: 768px){
 
     .header{
@@ -424,7 +428,9 @@ html {
 }
     
     .contact-wrapper {
+    display: flex;
     flex-direction: column;
     gap: 20px;
+    align-items: center;
     }
 }
