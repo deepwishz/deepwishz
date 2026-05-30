@@ -198,7 +198,7 @@ html {
 
 .card{
     background: rgb(0, 0, 35);
-    border: 2px solid #4d7cff;
+    border: 2px solid #b03a7e;
     border-radius: 25px;
     padding: 25px;
 
@@ -209,7 +209,7 @@ html {
 }
 
 .card h3{
-    color: #4d7cff;
+    color: #b03a7e;
     font-size: 20px;
     margin-bottom: 15px;
 }
@@ -225,7 +225,7 @@ html {
 
     box-shadow:
     0 0 20px #b03a7e,
-    0 0 40px rgba(176,58,126,0.8);
+    0 0 40px rgba(176,58,126,0.9);
 }
 
 @media (max-width: 768px){
@@ -329,7 +329,7 @@ html {
 
 .card{
     background: rgb(0, 0, 35);
-    border: 2px solid #4d7cff;
+    border: 2px solid #b03a7e;
     border-radius: 25px;
     padding: 25px;
 
@@ -340,7 +340,7 @@ html {
 }
 
 .card h3{
-    color: #4d7cff;
+    color: #b03a7e;
     font-size: 20px;
     margin-bottom: 15px;
 }
@@ -355,7 +355,7 @@ html {
     transform: translateY(-10px);
 
     box-shadow:
-    0 0 20px #4d7cff,
-    0 0 40px rgba(77,124,255,0.8);
+    0 0 20px #b03a7e,
+    0 0 40px rgba(176,58,126,0.9);
 }
 }
