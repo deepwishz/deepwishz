@@ -462,13 +462,31 @@ html {
     0 0 20px #b03a7e,
     0 0 40px rgba(176,58,126,0.9);
 }
+
+    .contact-wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+    .contact-wrapper {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
     
     .contact-wrapper {
     display: flex;
-    flex-direction: column;
-    gap: 25px;
-    align-items: center;
-    }
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
+
+    overflow-x: auto;
+    padding: 10px 5%;
+    scroll-snap-type: x mandatory;
+}
+
+    .contact-item {
+    scroll-snap-align: center;
+    flex: 0 0 auto;
+}
 
     .contact-menu {
     top: 90px;
