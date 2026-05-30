@@ -6,7 +6,7 @@
 }
 
 body {
-    color: rgb(11, 11, 11);
+    color: rgb(0, 0, 50);
 }
 
 .header {
@@ -155,7 +155,7 @@ html {
     border: 3px solid #4d7cff;
     border-radius: 25px;
     padding: 40px;
-    background: rgba(0,0,35);
+    background: rgba(0, 0, 35);
 
     box-shadow:
     0 0 20px rgba(77,124,255,0.4),
