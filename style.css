@@ -173,6 +173,61 @@ html {
     0 0 20px #4d7cff;
 }
 
+.philosophy{
+    background-color: rgb(0, 0, 50);
+    padding: 40px 10% 80px;
+}
+
+.philosophy h2{
+    text-align: center;
+    color: white;
+    font-size: 55px;
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+
+    text-shadow:
+    0 0 10px #4d7cff,
+    0 0 20px #4d7cff;
+}
+
+.philosophy-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.card{
+    background: rgb(0, 0, 35);
+    border: 2px solid #4d7cff;
+    border-radius: 25px;
+    padding: 25px;
+
+    box-shadow:
+    0 0 15px rgba(77,124,255,0.4);
+
+    transition: 0.3s ease;
+}
+
+.card h3{
+    color: #4d7cff;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.card p{
+    color: rgb(200,200,200);
+    line-height: 1.7;
+    font-size: 16px;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+
+    box-shadow:
+    0 0 20px #4d7cff,
+    0 0 40px rgba(77,124,255,0.8);
+}
+
 @media (max-width: 768px){
 
     .header{
@@ -243,5 +298,13 @@ html {
 
     .about{
     padding: 40px 5%;
+    }
+
+    .philosophy-grid{
+    grid-template-columns: 1fr;
+    }
+
+    .philosophy h2{
+    font-size: 35px;
     }
 }
