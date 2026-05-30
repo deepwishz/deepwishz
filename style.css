@@ -51,7 +51,7 @@ body {
     position: relative;
     width: 100%;
     justify-content: space-between;
-    height: 100vh;
+    min-height: 100vh;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -120,19 +120,6 @@ html {
     z-index: 1001;
 }
 
-.about{
-    min-height: 100vh;
-    background-color: rgb(0, 0, 50);
-    padding: 120px 10%;
-    text-align: center;
-}
-
-.about h1{
-    font-size: 80px;
-    color: white;
-    margin-bottom: 50px;
-}
-
 .canva-container{
     position: relative;
     width: 100%;
@@ -159,9 +146,8 @@ html {
 }
 
 .about{
-    min-height: 100vh;
     background-color: rgb(0, 0, 50);
-    padding: 120px 10%;
+    padding: 40px 10% 80px;
     text-align: center;
 }
 
@@ -174,6 +160,16 @@ html {
     box-shadow:
     0 0 20px rgba(77,124,255,0.4),
     0 0 40px rgba(77,124,255,0.2);
+}
+
+.about h1{
+    font-size: 80px;
+    color: white;
+    margin-bottom: 40px;
+
+    text-shadow:
+    0 0 10px #4d7cff,
+    0 0 20px #4d7cff;
 }
 
 @media (max-width: 768px){
@@ -245,10 +241,10 @@ html {
     }
 
     .about{
-    padding: 100px 5%;
+    padding: 40px 5%;
         
     .about h1{
-    font-size: 80px;
+    font-size: 50px;
     color: white;
     margin-bottom: 40px;
     text-shadow:
