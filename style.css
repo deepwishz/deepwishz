@@ -155,7 +155,7 @@ html {
     border: 3px solid #4d7cff;
     border-radius: 25px;
     padding: 40px;
-    background: rgba(0, 0, 35);
+    background: rgb(0, 0, 35);
 
     box-shadow:
     0 0 20px rgba(77,124,255,0.4),
@@ -242,6 +242,7 @@ html {
 
     .about{
     padding: 40px 5%;
+    }
         
     .about h1{
     font-family: 'Parisienne', cursive;
