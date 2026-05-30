@@ -244,7 +244,7 @@ html {
     padding: 40px 5%;
         
     .about h1{
-    font-family: 'Allura', cursive;
+    font-family: 'Allura', cursive !important;
     font-size: 80px;
     color: white;
     margin-bottom: 40px;
