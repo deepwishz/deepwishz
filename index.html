@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>deepwishzhome</title>
@@ -93,6 +95,58 @@
     </div>
 
 </section>
+
+    <section id="contact" class="contact">
+
+    <h2>Help & Support</h2>
+
+    <div class="contact-wrapper">
+
+        <div class="contact-item">
+            <button class="contact-btn" onclick="toggleMenu('waMenu')">
+                <i class="fa-brands fa-whatsapp"></i>
+                <span>WA</span>
+            </button>
+
+            <div class="contact-menu" id="waMenu">
+                <a href="https://wa.me/6281111111111">Nomor 1</a>
+                <a href="https://wa.me/6282222222222">Nomor 2</a>
+                <a href="https://wa.me/6283333333333">Nomor 3</a>
+                <a href="https://wa.me/6284444444444">Nomor 4</a>
+            </div>
+        </div>
+
+        <div class="contact-item">
+            <button class="contact-btn" onclick="toggleMenu('igMenu')">
+                <i class="fa-brands fa-instagram"></i>
+                <span>IG</span>
+            </button>
+
+            <div class="contact-menu" id="igMenu">
+                <a href="https://instagram.com/acc1">Account 1</a>
+                <a href="https://instagram.com/acc2">Account 2</a>
+                <a href="https://instagram.com/acc3">Account 3</a>
+                <a href="https://instagram.com/acc4">Account 4</a>
+            </div>
+        </div>
+
+        <div class="contact-item">
+            <button class="contact-btn" onclick="toggleMenu('emailMenu')">
+                <i class="fa-regular fa-envelope"></i>
+                <span>Email</span>
+            </button>
+
+            <div class="contact-menu" id="emailMenu">
+                <a href="mailto:a@gmail.com">Email 1</a>
+                <a href="mailto:b@gmail.com">Email 2</a>
+                <a href="mailto:c@gmail.com">Email 3</a>
+                <a href="mailto:d@gmail.com">Email 4</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
     
     <script>
 
@@ -103,6 +157,25 @@ menuToggle.addEventListener("click", () => {
     navbar.classList.toggle("active");
 });
 
+</script>
+
+    <script>
+const menuToggle = document.getElementById("menu-toggle");
+const navbar = document.querySelector(".navbar");
+
+menuToggle.addEventListener("click", () => {
+    navbar.classList.toggle("active");
+});
+
+function toggleMenu(id) {
+    const menu = document.getElementById(id);
+
+    document.querySelectorAll('.contact-menu').forEach(m => {
+        if (m.id !== id) m.style.display = "none";
+    });
+
+    menu.style.display = menu.style.display === "flex" ? "none" : "flex";
+}
 </script>
 </body>
 </html>
