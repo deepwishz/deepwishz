@@ -163,6 +163,7 @@ html {
 }
 
 .about h1{
+    font-family: 'Parisienne', cursive;
     font-size: 80px;
     color: white;
     margin-bottom: 40px;
@@ -243,15 +244,4 @@ html {
     .about{
     padding: 40px 5%;
     }
-        
-    .about h1{
-    font-family: 'Parisienne', cursive;
-    font-size: 80px;
-    color: white;
-    margin-bottom: 40px;
-
-    text-shadow:
-    0 0 10px #4d7cff,
-    0 0 20px #4d7cff;
 }
-
