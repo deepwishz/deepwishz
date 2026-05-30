@@ -51,7 +51,7 @@ body {
     position: relative;
     width: 100%;
     justify-content: space-between;
-    min-height: 100vh;
+    min-height: 85vh;
     background-size: cover;
     background-position: center;
     display: flex;
