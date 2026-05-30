@@ -160,21 +160,14 @@ menuToggle.addEventListener("click", () => {
 </script>
 
     <script>
-const menuToggle = document.getElementById("menu-toggle");
-const navbar = document.querySelector(".navbar");
-
-menuToggle.addEventListener("click", () => {
-    navbar.classList.toggle("active");
-});
-
 function toggleMenu(id) {
     const menu = document.getElementById(id);
 
     document.querySelectorAll('.contact-menu').forEach(m => {
-        if (m.id !== id) m.style.display = "none";
+        if (m.id !== id) m.classList.remove("active");
     });
 
-    menu.style.display = menu.style.display === "flex" ? "none" : "flex";
+    menu.classList.toggle("active");
 }
 </script>
 </body>
