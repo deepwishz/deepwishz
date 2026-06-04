@@ -42,9 +42,16 @@ body {
     0 0 10px rgba(255,255,255,0.2);
 }
 
-.deep,
+.deep{
+    color: white;
+}
+
 .wishz{
-    font-family: 'Allura', cursive !important;
+    color: #ff9ad5;
+
+    text-shadow:
+    0 0 10px #b03a7e,
+    0 0 20px #b03a7e;
 }
 
 .brand-name{
