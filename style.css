@@ -54,15 +54,21 @@ body {
 
 .content h1 span{
     color: #87CEEB;
-}
-.brand-name{
-    font-family: 'Allura', cursive;
-    color: #ff9ad5;
-    font-size: 1.2em;
 
     text-shadow:
-    0 0 10px #b03a7e,
-    0 0 20px #b03a7e;
+    0 0 10px #87CEEB,
+    0 0 20px #87CEEB,
+    0 0 40px #87CEEB;
+}
+
+.brand-name{
+    font-family: 'Allura', cursive;
+    color: #87CEEB;
+
+    text-shadow:
+    0 0 10px #87CEEB,
+    0 0 20px #87CEEB,
+    0 0 40px #87CEEB;
 }
 
 .navbar a{
