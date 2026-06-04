@@ -31,13 +31,24 @@ body {
 }
 
 .mylogo{
+    position: relative;
+    text-decoration: none;
+
     font-family: 'Allura', cursive;
-    font-size: 55px;
+    font-size: 42px;
     font-weight: 700;
+
+    color: white;
 
     text-shadow:
     0 0 10px #4d7cff,
     0 0 20px #4d7cff;
+}
+
+.mylogo:hover,
+.mylogo:visited,
+.mylogo:active{
+    text-decoration: none;
 }
 
 .deep,
