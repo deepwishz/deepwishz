@@ -42,33 +42,31 @@ body {
     0 0 10px rgba(255,255,255,0.2);
 }
 
-.deep,
-.wishz{
-    color: #87CEEB;
-
-    text-shadow:
-    0 0 10px #87CEEB,
-    0 0 20px #87CEEB,
-    0 0 40px #87CEEB;
+.deep{
+    color: white !important;
 }
 
-.content h1 span{
-    color: #87CEEB;
+.wishz{
+    color: #6EC6FF;
 
     text-shadow:
-    0 0 10px #87CEEB,
-    0 0 20px #87CEEB,
-    0 0 40px #87CEEB;
+    0 0 8px #6EC6FF,
+    0 0 16px #6EC6FF,
+    0 0 24px #6EC6FF;
+}
+
+span{
+    color: inherit;
 }
 
 .brand-name{
     font-family: 'Allura', cursive;
-    color: #87CEEB;
+    color: #6EC6FF;
 
     text-shadow:
-    0 0 10px #87CEEB,
-    0 0 20px #87CEEB,
-    0 0 40px #87CEEB;
+    0 0 8px #6EC6FF,
+    0 0 16px #6EC6FF,
+    0 0 24px #6EC6FF;
 }
 
 .navbar a{
