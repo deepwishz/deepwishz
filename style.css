@@ -574,4 +574,8 @@ html {
     width: 65px;
     height: 65px;
 }
+
+    .mylogo span{
+    text-decoration: none !important;
+}
 }
