@@ -44,14 +44,17 @@ body {
 
 .deep,
 .wishz{
-    color: #ff9ad5;
+    color: #87CEEB;
 
     text-shadow:
-    0 0 10px #ff9ad5,
-    0 0 20px #ff9ad5,
-    0 0 40px #ff9ad5;
+    0 0 10px #87CEEB,
+    0 0 20px #87CEEB,
+    0 0 40px #87CEEB;
 }
 
+.content h1 span{
+    color: #87CEEB;
+}
 .brand-name{
     font-family: 'Allura', cursive;
     color: #ff9ad5;
@@ -132,10 +135,6 @@ body {
     font-weight: 700;
     margin: -3px 0;
     color: white;
-}
-
-.content h1 span{
-    color: #4d7cff;
 }
 
 .content p{
