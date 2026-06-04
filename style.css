@@ -61,11 +61,8 @@ body {
 }
 
 .navbar a{
-    font-family: 'Allura', cursive !important;
+    font-family: cursive !important;
     font-size: 28px;
-    font-weight: normal;
-    color: white;
-    margin-left: 25px;
 }
 
 .navbar a:hover{
