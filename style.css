@@ -205,15 +205,14 @@ html {
 }
 
 .philosophy h2{
-    text-align: center;
-    color: white;
+    font-family: 'Playfair Display', serif;
     font-size: 55px;
-    margin-bottom: 50px;
+    color: white;
     letter-spacing: 2px;
 
     text-shadow:
-    0 0 10px #4d7cff,
-    0 0 20px #4d7cff;
+    0 0 10px #b03a7e,
+    0 0 20px #b03a7e;
 }
 
 .philosophy-grid{
