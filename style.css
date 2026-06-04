@@ -31,28 +31,20 @@ body {
 }
 
 .mylogo{
-    position: relative;
-    text-decoration: none;
-    cursor: pointer;
-
-    font-size: 50px;
-    font-weight: normal;
+    font-family: 'Allura', cursive;
+    font-size: 55px;
+    font-weight: 700;
 
     text-shadow:
-    0 0 10px rgba(255,255,255,0.2);
+    0 0 10px #4d7cff,
+    0 0 20px #4d7cff;
 }
 
-.deep{
-    color: white !important;
-}
-
+.deep,
 .wishz{
-    color: #6EC6FF;
-
-    text-shadow:
-    0 0 8px #6EC6FF,
-    0 0 16px #6EC6FF,
-    0 0 24px #6EC6FF;
+    color: white;
+    font-family: 'Allura', cursive;
+    font-weight: 700;
 }
 
 span{
@@ -61,12 +53,12 @@ span{
 
 .brand-name{
     font-family: 'Allura', cursive;
-    color: #6EC6FF;
+    color: white;
+    font-size: 1.35em;
 
     text-shadow:
-    0 0 8px #6EC6FF,
-    0 0 16px #6EC6FF,
-    0 0 24px #6EC6FF;
+    0 0 10px #4d7cff,
+    0 0 20px #4d7cff;
 }
 
 .navbar a{
