@@ -42,16 +42,14 @@ body {
     0 0 10px rgba(255,255,255,0.2);
 }
 
-.deep{
-    color: white;
-}
-
+.deep,
 .wishz{
     color: #ff9ad5;
 
     text-shadow:
-    0 0 10px #b03a7e,
-    0 0 20px #b03a7e;
+    0 0 10px #ff9ad5,
+    0 0 20px #ff9ad5,
+    0 0 40px #ff9ad5;
 }
 
 .brand-name{
