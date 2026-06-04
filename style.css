@@ -25,12 +25,16 @@ body {
     background-color: rgba(0, 0, 0, 0.150);
 }
 
+.mylogo,
+.mylogo span{
+    font-family: 'Allura', cursive !important;
+}
+
 .mylogo{
     position: relative;
     text-decoration: none;
     cursor: pointer;
 
-    font-family: 'Allura', cursive !important;
     font-size: 50px;
     font-weight: normal;
 
