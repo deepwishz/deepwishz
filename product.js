@@ -88,14 +88,14 @@ function pilihMode(mode) {
                 hiasanAtas.innerText = "🌙 Selamat Hari Raya 🌙";
                 hiasanBawah.innerText = "Mohon Maaf Lahir & Batin";
             } else if (temaAktif === 'cinta') {
-                hiasanAtas.innerText = "💖 ------------💖";
-                hiasanBawah.innerText = " have a nice dayy! ";
+                hiasanAtas.innerText = "To someone Special...";
+                hiasanBawah.innerText = " Love You! 💝 ";
             } else if (temaAktif === 'ultah') {
                 hiasanAtas.innerText = "Happy Birthday! ";
                 hiasanBawah.innerText = "Wish You All The Best!!";
             } else {
-                hiasanAtas.innerText = "✉️ --- Surat Ucapan --- ✉️";
-                hiasanBawah.innerText = "✉️ --------------------- ✉️";
+                hiasanAtas.innerText = "Hey! A Simple Message for you";
+                hiasanBawah.innerText = "Have a nice day!";
             }
         }
 
